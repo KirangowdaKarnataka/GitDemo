@@ -1,5 +1,7 @@
 package org.selenium4.latest.version.check;
 
+import org.testng.annotations.Test;
+
 public class TestDemo {
 
 	public static void main(String[] args) {
@@ -14,6 +16,12 @@ public class TestDemo {
 		
 		
 
+	}
+	
+	
+	@Test
+	public void demoTestHelperu() {
+		System.out.println("This is best way to find the information");
 	}
 
 }
